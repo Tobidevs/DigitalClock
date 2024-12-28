@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    scroll-behavior: smooth;
+    --gray: rgb(29, 28, 33);
+    --border: 5px solid;
+    --blue: rgb(107, 127, 215);
+    --black: rgb(20, 20, 23);
+}
+body{
+    background-color: var(--gray);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 75vw;
+    border: red 1px solid;
+}
